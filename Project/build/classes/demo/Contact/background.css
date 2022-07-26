@@ -1,0 +1,5 @@
+.bodybg{
+    -fx-background-image: url('contactBck.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 1034 690;
+}

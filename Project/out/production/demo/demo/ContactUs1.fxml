@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="690.0" prefWidth="1034.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="demo.ContactUs1Controller">
+   <children>
+      <Pane layoutY="575.0" prefHeight="115.0" prefWidth="1034.0" style="-fx-background-color: #0B194A;" />
+      <Pane prefHeight="98.0" prefWidth="1034.0" style="-fx-background-color: #0B194A;">
+         <children>
+            <Label layoutX="20.0" layoutY="-4.0" prefHeight="107.0" prefWidth="212.0" text="NOVO" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="73.0" />
+               </font>
+            </Label>
+            <Label layoutX="243.0" layoutY="-4.0" prefHeight="98.0" prefWidth="284.0" text="Air" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman" size="73.0" />
+               </font>
+            </Label>
+            <Button fx:id="back" layoutX="922.0" layoutY="26.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="87.0" style="-fx-background-color: #F8D7FF; -fx-cursor: hand;" stylesheets="@test.css" text="Back" textFill="#2c0e0e">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="22.0" />
+               </font>
+            </Button>
+         </children></Pane>
+      <Label layoutX="184.0" layoutY="169.0" prefHeight="47.0" prefWidth="412.0" text="How can we help you today ?*">
+         <font>
+            <Font name="Times New Roman Bold" size="28.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="combox" layoutX="184.0" layoutY="227.0" prefHeight="64.0" prefWidth="565.0" promptText="pick one" />
+      <Button fx:id="sendBut" layoutX="662.0" layoutY="311.0" mnemonicParsing="false" style="-fx-background-color: #070331; -fx-cursor: hand;" stylesheets="@Contact/t1.css" text="Submit" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Bold" size="25.0" />
+         </font>
+      </Button>
+      <Pane layoutY="412.0" prefHeight="163.0" prefWidth="1034.0" style="-fx-background-color: #F8D7FF;">
+         <children>
+            <Label layoutX="367.0" layoutY="33.0" prefHeight="38.0" prefWidth="300.0" text="Question Not Answered?" textFill="#130346">
+               <font>
+                  <Font name="Times New Roman Bold" size="23.0" />
+               </font>
+            </Label>
+            <Button fx:id="tellusBut" layoutX="437.0" layoutY="64.0" mnemonicParsing="false" style="-fx-background-color: transparent; -fx-cursor: hand;" text="Tell Us &gt;" textFill="#5b1616">
+               <font>
+                  <Font name="Times New Roman Bold" size="19.0" />
+               </font>
+            </Button>
+            <TextField fx:id="txt_field" layoutX="374.0" layoutY="99.0" prefHeight="31.0" prefWidth="212.0" visible="false" />
+            <Button fx:id="submit" layoutX="614.0" layoutY="99.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="99.0" style="-fx-background-color: transparent; -fx-cursor: hand;" text="Submit" textFill="#1d0151">
+               <font>
+                  <Font name="Gill Sans MT" size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Label fx:id="succes" layoutX="364.0" layoutY="320.0" underline="true">
+         <font>
+            <Font name="Times New Roman Bold" size="27.0" />
+         </font>
+      </Label>
+     
+        
+   </children>
+</AnchorPane>
